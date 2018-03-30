@@ -26,6 +26,7 @@ ul li {
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
+  border-radius: 25px;
 
   /* make the list items unselectable */
   -webkit-user-select: none;
@@ -80,10 +81,11 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-  background-color: #f44336;
-  padding: 30px 40px;
-  color: white;
+  background-color: transparent;
+  padding: 50px 40px;
+  color: #7b9e95;
   text-align: center;
+
 }
 
 /* Clear floats after the header */
@@ -91,6 +93,7 @@ ul li.checked::before {
   content: "";
   display: table;
   clear: both;
+
 }
 
 /* Style the input */
@@ -100,6 +103,7 @@ input {
   padding: 10px;
   float: left;
   font-size: 16px;
+  border-radius: 25px;
 }
 
 /* Style the "Add" button */
@@ -113,6 +117,7 @@ input {
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
+  border-radius: 25px;
 }
 
 .addBtn:hover {
