@@ -4,6 +4,7 @@ body {
   background-image: url("img/japan.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  /* figure out the why it wont cover the bottom */
 }
 
 /* Include the padding and border in an element's total width and height */
@@ -13,8 +14,8 @@ body {
 
 /* Remove margins and padding from the list */
 ul {
-  margin: 0;
-  padding: 0;
+  margin: 40px;
+  padding: 40px;
 }
 
 /* Style the list items */
@@ -99,9 +100,9 @@ ul li.checked::before {
 /* Style the input */
 input {
   border: none;
-  width: 75%;
+  width: 55%;
   padding: 10px;
-  float: left;
+  float: center;
   font-size: 16px;
   border-radius: 25px;
 }
@@ -109,12 +110,13 @@ input {
 /* Style the "Add" button */
 .addBtn {
   padding: 10px;
-  width: 25%;
+  width: 15%;
   background: #d9d9d9;
   color: #555;
-  float: left;
+  float: center;
+  /* figure out why flaot on both wont let button resize  */
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
   transition: 0.3s;
   border-radius: 25px;
